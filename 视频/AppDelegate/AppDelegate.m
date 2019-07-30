@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "HomePageViewController.h"
+#import "TKBaseNavigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    HomePageViewController *vc = [HomePageViewController new];
+    TKBaseNavigationController *nav = [[TKBaseNavigationController alloc]initWithRootViewController:vc];
+    [self.window setRootViewController:vc];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050FCA0635435109C3BE4F85 /* libPods-视频.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1A245B7E7331A04AB86F08 /* libPods-视频.a */; };
+		357DBEC8C32219D89AF91547 /* libPods-视频UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62984AC6FA9F31D9E7B46200 /* libPods-视频UITests.a */; };
+		5A117478CAE97F8F59E5EF87 /* libPods-视频Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFF7125AFB86197095BDCF6 /* libPods-视频Tests.a */; };
 		B532356122EEC438009B9599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B532356022EEC438009B9599 /* AppDelegate.m */; };
 		B532356422EEC438009B9599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B532356322EEC438009B9599 /* ViewController.m */; };
 		B532356722EEC438009B9599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B532356522EEC438009B9599 /* Main.storyboard */; };
@@ -15,6 +18,28 @@
 		B532356F22EEC439009B9599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B532356E22EEC439009B9599 /* main.m */; };
 		B532357922EEC439009B9599 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B532357822EEC439009B9599 /* __Tests.m */; };
 		B532358422EEC439009B9599 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B532358322EEC439009B9599 /* __UITests.m */; };
+		B53235B122EEC4CC009B9599 /* TKBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235A522EEC4CB009B9599 /* TKBaseNavigationController.m */; };
+		B53235B222EEC4CC009B9599 /* TKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235A622EEC4CB009B9599 /* TKBaseViewController.m */; };
+		B53235B322EEC4CC009B9599 /* UIBarButtonItem+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235A822EEC4CB009B9599 /* UIBarButtonItem+Add.m */; };
+		B53235B622EEC529009B9599 /* UIColor+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235B522EEC529009B9599 /* UIColor+Add.m */; };
+		B53235BA22EEC675009B9599 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235B922EEC675009B9599 /* HomePageViewController.m */; };
+		B53235C222EEC977009B9599 /* MovieListController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235C122EEC977009B9599 /* MovieListController.m */; };
+		B53235CB22EECEDA009B9599 /* MovieItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235C922EECEDA009B9599 /* MovieItemCell.m */; };
+		B53235CC22EECEDA009B9599 /* MovieItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53235CA22EECEDA009B9599 /* MovieItemCell.xib */; };
+		B53235D422EEDDE0009B9599 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235CF22EEDDE0009B9599 /* TFHpple.m */; };
+		B53235D522EEDDE0009B9599 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235D222EEDDE0009B9599 /* TFHppleElement.m */; };
+		B53235D622EEDDE0009B9599 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235D322EEDDE0009B9599 /* XPathQuery.m */; };
+		B53235D922EEDE3C009B9599 /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235D822EEDE3C009B9599 /* MovieModel.m */; };
+		B53235DC22EEDEE0009B9599 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B53235DA22EEDEE0009B9599 /* libxml2.2.tbd */; };
+		B53235DD22EEDEE0009B9599 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B53235DB22EEDEE0009B9599 /* libxml2.tbd */; };
+		B53235E122F04A4C009B9599 /* MoviePlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235DF22F04A4C009B9599 /* MoviePlayController.m */; };
+		B53235E222F04A4C009B9599 /* MoviePlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53235E022F04A4C009B9599 /* MoviePlayController.xib */; };
+		B53235F022F04E84009B9599 /* WMPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235E522F04E83009B9599 /* WMPlayerModel.m */; };
+		B53235F122F04E84009B9599 /* UIViewController+ShouldAutorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235E822F04E83009B9599 /* UIViewController+ShouldAutorotate.m */; };
+		B53235F222F04E84009B9599 /* WMPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B53235EA22F04E83009B9599 /* WMPlayer.bundle */; };
+		B53235F322F04E84009B9599 /* WMLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235ED22F04E83009B9599 /* WMLightView.m */; };
+		B53235F422F04E84009B9599 /* FastForwardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235EE22F04E83009B9599 /* FastForwardView.m */; };
+		B53235F522F04E84009B9599 /* WMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B53235EF22F04E83009B9599 /* WMPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EFF7125AFB86197095BDCF6 /* libPods-视频Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-视频Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62984AC6FA9F31D9E7B46200 /* libPods-视频UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-视频UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756DC73FF250F813AFF249A1 /* Pods-视频.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-视频.release.xcconfig"; path = "Pods/Target Support Files/Pods-视频/Pods-视频.release.xcconfig"; sourceTree = "<group>"; };
+		7C0ECA0C48D7BED81438396A /* Pods-视频UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-视频UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-视频UITests/Pods-视频UITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D1A245B7E7331A04AB86F08 /* libPods-视频.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-视频.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34275372EC433CC55853DEA /* Pods-视频UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-视频UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-视频UITests/Pods-视频UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B532355C22EEC438009B9599 /* 视频.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视频.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B532355F22EEC438009B9599 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B532356022EEC438009B9599 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +82,48 @@
 		B532357F22EEC439009B9599 /* 视频UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "视频UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B532358322EEC439009B9599 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		B532358522EEC439009B9599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B532359222EEC4CB009B9599 /* TKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKBaseViewController.h; sourceTree = "<group>"; };
+		B53235A422EEC4CB009B9599 /* UIBarButtonItem+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Add.h"; sourceTree = "<group>"; };
+		B53235A522EEC4CB009B9599 /* TKBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBaseNavigationController.m; sourceTree = "<group>"; };
+		B53235A622EEC4CB009B9599 /* TKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBaseViewController.m; sourceTree = "<group>"; };
+		B53235A722EEC4CB009B9599 /* TKBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKBaseNavigationController.h; sourceTree = "<group>"; };
+		B53235A822EEC4CB009B9599 /* UIBarButtonItem+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Add.m"; sourceTree = "<group>"; };
+		B53235B422EEC529009B9599 /* UIColor+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Add.h"; sourceTree = "<group>"; };
+		B53235B522EEC529009B9599 /* UIColor+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Add.m"; sourceTree = "<group>"; };
+		B53235B822EEC675009B9599 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		B53235B922EEC675009B9599 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		B53235C022EEC977009B9599 /* MovieListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieListController.h; sourceTree = "<group>"; };
+		B53235C122EEC977009B9599 /* MovieListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieListController.m; sourceTree = "<group>"; };
+		B53235C822EECEDA009B9599 /* MovieItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieItemCell.h; sourceTree = "<group>"; };
+		B53235C922EECEDA009B9599 /* MovieItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieItemCell.m; sourceTree = "<group>"; };
+		B53235CA22EECEDA009B9599 /* MovieItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieItemCell.xib; sourceTree = "<group>"; };
+		B53235CE22EEDDE0009B9599 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		B53235CF22EEDDE0009B9599 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		B53235D022EEDDE0009B9599 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		B53235D122EEDDE0009B9599 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		B53235D222EEDDE0009B9599 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		B53235D322EEDDE0009B9599 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		B53235D722EEDE3C009B9599 /* MovieModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieModel.h; sourceTree = "<group>"; };
+		B53235D822EEDE3C009B9599 /* MovieModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieModel.m; sourceTree = "<group>"; };
+		B53235DA22EEDEE0009B9599 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		B53235DB22EEDEE0009B9599 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		B53235DE22F04A4C009B9599 /* MoviePlayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviePlayController.h; sourceTree = "<group>"; };
+		B53235DF22F04A4C009B9599 /* MoviePlayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayController.m; sourceTree = "<group>"; };
+		B53235E022F04A4C009B9599 /* MoviePlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviePlayController.xib; sourceTree = "<group>"; };
+		B53235E422F04E83009B9599 /* WMLightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLightView.h; sourceTree = "<group>"; };
+		B53235E522F04E83009B9599 /* WMPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPlayerModel.m; sourceTree = "<group>"; };
+		B53235E622F04E83009B9599 /* FastForwardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastForwardView.h; sourceTree = "<group>"; };
+		B53235E822F04E83009B9599 /* UIViewController+ShouldAutorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ShouldAutorotate.m"; sourceTree = "<group>"; };
+		B53235E922F04E83009B9599 /* UIViewController+ShouldAutorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ShouldAutorotate.h"; sourceTree = "<group>"; };
+		B53235EA22F04E83009B9599 /* WMPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMPlayer.bundle; sourceTree = "<group>"; };
+		B53235EB22F04E83009B9599 /* WMPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPlayer.h; sourceTree = "<group>"; };
+		B53235EC22F04E83009B9599 /* WMPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPlayerModel.h; sourceTree = "<group>"; };
+		B53235ED22F04E83009B9599 /* WMLightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLightView.m; sourceTree = "<group>"; };
+		B53235EE22F04E83009B9599 /* FastForwardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastForwardView.m; sourceTree = "<group>"; };
+		B53235EF22F04E83009B9599 /* WMPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPlayer.m; sourceTree = "<group>"; };
+		C8979DE727E854B2F57BAC38 /* Pods-视频Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-视频Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-视频Tests/Pods-视频Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB17059BB8206356757A82D1 /* Pods-视频Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-视频Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-视频Tests/Pods-视频Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F57DB136543E72FAD39B082E /* Pods-视频.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-视频.debug.xcconfig"; path = "Pods/Target Support Files/Pods-视频/Pods-视频.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +131,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53235DC22EEDEE0009B9599 /* libxml2.2.tbd in Frameworks */,
+				B53235DD22EEDEE0009B9599 /* libxml2.tbd in Frameworks */,
+				050FCA0635435109C3BE4F85 /* libPods-视频.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A117478CAE97F8F59E5EF87 /* libPods-视频Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357DBEC8C32219D89AF91547 /* libPods-视频UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +163,8 @@
 				B532357722EEC439009B9599 /* 视频Tests */,
 				B532358222EEC439009B9599 /* 视频UITests */,
 				B532355D22EEC438009B9599 /* Products */,
+				DA063042990890365A27C4A2 /* Pods */,
+				E3F09EDE00FDF3177E78CAFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +181,11 @@
 		B532355E22EEC438009B9599 /* 视频 */ = {
 			isa = PBXGroup;
 			children = (
-				B532355F22EEC438009B9599 /* AppDelegate.h */,
-				B532356022EEC438009B9599 /* AppDelegate.m */,
+				B53235CD22EEDDE0009B9599 /* TFHpple */,
+				B53235BC22EEC944009B9599 /* Movie */,
+				B53235BB22EEC6B6009B9599 /* AppDelegate */,
+				B53235B722EEC647009B9599 /* PageController */,
+				B532359122EEC4CB009B9599 /* Base */,
 				B532356222EEC438009B9599 /* ViewController.h */,
 				B532356322EEC438009B9599 /* ViewController.m */,
 				B532356522EEC438009B9599 /* Main.storyboard */,
@@ -132,6 +215,145 @@
 			path = "视频UITests";
 			sourceTree = "<group>";
 		};
+		B532359122EEC4CB009B9599 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B532359222EEC4CB009B9599 /* TKBaseViewController.h */,
+				B53235A622EEC4CB009B9599 /* TKBaseViewController.m */,
+				B53235A722EEC4CB009B9599 /* TKBaseNavigationController.h */,
+				B53235A522EEC4CB009B9599 /* TKBaseNavigationController.m */,
+				B53235A422EEC4CB009B9599 /* UIBarButtonItem+Add.h */,
+				B53235A822EEC4CB009B9599 /* UIBarButtonItem+Add.m */,
+				B53235B422EEC529009B9599 /* UIColor+Add.h */,
+				B53235B522EEC529009B9599 /* UIColor+Add.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B53235B722EEC647009B9599 /* PageController */ = {
+			isa = PBXGroup;
+			children = (
+				B53235B822EEC675009B9599 /* HomePageViewController.h */,
+				B53235B922EEC675009B9599 /* HomePageViewController.m */,
+			);
+			path = PageController;
+			sourceTree = "<group>";
+		};
+		B53235BB22EEC6B6009B9599 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B532355F22EEC438009B9599 /* AppDelegate.h */,
+				B532356022EEC438009B9599 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B53235BC22EEC944009B9599 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				B53235E322F04E83009B9599 /* WMPlayer */,
+				B53235BF22EEC95E009B9599 /* Controller */,
+				B53235BE22EEC959009B9599 /* View */,
+				B53235BD22EEC953009B9599 /* Model */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		B53235BD22EEC953009B9599 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B53235D722EEDE3C009B9599 /* MovieModel.h */,
+				B53235D822EEDE3C009B9599 /* MovieModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B53235BE22EEC959009B9599 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B53235C822EECEDA009B9599 /* MovieItemCell.h */,
+				B53235C922EECEDA009B9599 /* MovieItemCell.m */,
+				B53235CA22EECEDA009B9599 /* MovieItemCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B53235BF22EEC95E009B9599 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B53235C022EEC977009B9599 /* MovieListController.h */,
+				B53235C122EEC977009B9599 /* MovieListController.m */,
+				B53235DE22F04A4C009B9599 /* MoviePlayController.h */,
+				B53235DF22F04A4C009B9599 /* MoviePlayController.m */,
+				B53235E022F04A4C009B9599 /* MoviePlayController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B53235CD22EEDDE0009B9599 /* TFHpple */ = {
+			isa = PBXGroup;
+			children = (
+				B53235CE22EEDDE0009B9599 /* TFHppleElement.h */,
+				B53235D222EEDDE0009B9599 /* TFHppleElement.m */,
+				B53235D122EEDDE0009B9599 /* TFHpple.h */,
+				B53235CF22EEDDE0009B9599 /* TFHpple.m */,
+				B53235D022EEDDE0009B9599 /* XPathQuery.h */,
+				B53235D322EEDDE0009B9599 /* XPathQuery.m */,
+			);
+			path = TFHpple;
+			sourceTree = "<group>";
+		};
+		B53235E322F04E83009B9599 /* WMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B53235E422F04E83009B9599 /* WMLightView.h */,
+				B53235E522F04E83009B9599 /* WMPlayerModel.m */,
+				B53235E622F04E83009B9599 /* FastForwardView.h */,
+				B53235E722F04E83009B9599 /* Category */,
+				B53235EA22F04E83009B9599 /* WMPlayer.bundle */,
+				B53235EB22F04E83009B9599 /* WMPlayer.h */,
+				B53235EC22F04E83009B9599 /* WMPlayerModel.h */,
+				B53235ED22F04E83009B9599 /* WMLightView.m */,
+				B53235EE22F04E83009B9599 /* FastForwardView.m */,
+				B53235EF22F04E83009B9599 /* WMPlayer.m */,
+			);
+			path = WMPlayer;
+			sourceTree = "<group>";
+		};
+		B53235E722F04E83009B9599 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B53235E822F04E83009B9599 /* UIViewController+ShouldAutorotate.m */,
+				B53235E922F04E83009B9599 /* UIViewController+ShouldAutorotate.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DA063042990890365A27C4A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F57DB136543E72FAD39B082E /* Pods-视频.debug.xcconfig */,
+				756DC73FF250F813AFF249A1 /* Pods-视频.release.xcconfig */,
+				C8979DE727E854B2F57BAC38 /* Pods-视频Tests.debug.xcconfig */,
+				DB17059BB8206356757A82D1 /* Pods-视频Tests.release.xcconfig */,
+				B34275372EC433CC55853DEA /* Pods-视频UITests.debug.xcconfig */,
+				7C0ECA0C48D7BED81438396A /* Pods-视频UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3F09EDE00FDF3177E78CAFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B53235DA22EEDEE0009B9599 /* libxml2.2.tbd */,
+				B53235DB22EEDEE0009B9599 /* libxml2.tbd */,
+				9D1A245B7E7331A04AB86F08 /* libPods-视频.a */,
+				1EFF7125AFB86197095BDCF6 /* libPods-视频Tests.a */,
+				62984AC6FA9F31D9E7B46200 /* libPods-视频UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +361,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B532358822EEC439009B9599 /* Build configuration list for PBXNativeTarget "视频" */;
 			buildPhases = (
+				01BEE9672E13F7A276EA3A7B /* [CP] Check Pods Manifest.lock */,
 				B532355822EEC438009B9599 /* Sources */,
 				B532355922EEC438009B9599 /* Frameworks */,
 				B532355A22EEC438009B9599 /* Resources */,
+				92800A649BD255631C529A70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +380,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B532358B22EEC439009B9599 /* Build configuration list for PBXNativeTarget "视频Tests" */;
 			buildPhases = (
+				BFE25D3016989FDB27473743 /* [CP] Check Pods Manifest.lock */,
 				B532357022EEC439009B9599 /* Sources */,
 				B532357122EEC439009B9599 /* Frameworks */,
 				B532357222EEC439009B9599 /* Resources */,
@@ -174,6 +399,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B532358E22EEC439009B9599 /* Build configuration list for PBXNativeTarget "视频UITests" */;
 			buildPhases = (
+				3DE9CA088A12A2E143B6D074 /* [CP] Check Pods Manifest.lock */,
 				B532357B22EEC439009B9599 /* Sources */,
 				B532357C22EEC439009B9599 /* Frameworks */,
 				B532357D22EEC439009B9599 /* Resources */,
@@ -236,7 +462,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B532356C22EEC439009B9599 /* LaunchScreen.storyboard in Resources */,
+				B53235CC22EECEDA009B9599 /* MovieItemCell.xib in Resources */,
+				B53235E222F04A4C009B9599 /* MoviePlayController.xib in Resources */,
 				B532356922EEC439009B9599 /* Assets.xcassets in Resources */,
+				B53235F222F04E84009B9599 /* WMPlayer.bundle in Resources */,
 				B532356722EEC438009B9599 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +486,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01BEE9672E13F7A276EA3A7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-视频-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DE9CA088A12A2E143B6D074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-视频UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92800A649BD255631C529A70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-视频/Pods-视频-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-视频/Pods-视频-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE25D3016989FDB27473743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-视频Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B532355822EEC438009B9599 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53235D522EEDDE0009B9599 /* TFHppleElement.m in Sources */,
+				B53235BA22EEC675009B9599 /* HomePageViewController.m in Sources */,
+				B53235D922EEDE3C009B9599 /* MovieModel.m in Sources */,
+				B53235F322F04E84009B9599 /* WMLightView.m in Sources */,
+				B53235F422F04E84009B9599 /* FastForwardView.m in Sources */,
 				B532356422EEC438009B9599 /* ViewController.m in Sources */,
+				B53235F522F04E84009B9599 /* WMPlayer.m in Sources */,
+				B53235C222EEC977009B9599 /* MovieListController.m in Sources */,
 				B532356F22EEC439009B9599 /* main.m in Sources */,
+				B53235F122F04E84009B9599 /* UIViewController+ShouldAutorotate.m in Sources */,
+				B53235B222EEC4CC009B9599 /* TKBaseViewController.m in Sources */,
+				B53235E122F04A4C009B9599 /* MoviePlayController.m in Sources */,
+				B53235CB22EECEDA009B9599 /* MovieItemCell.m in Sources */,
+				B53235B122EEC4CC009B9599 /* TKBaseNavigationController.m in Sources */,
+				B53235D622EEDDE0009B9599 /* XPathQuery.m in Sources */,
 				B532356122EEC438009B9599 /* AppDelegate.m in Sources */,
+				B53235F022F04E84009B9599 /* WMPlayerModel.m in Sources */,
+				B53235B622EEC529009B9599 /* UIColor+Add.m in Sources */,
+				B53235D422EEDDE0009B9599 /* TFHpple.m in Sources */,
+				B53235B322EEC4CC009B9599 /* UIBarButtonItem+Add.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +776,37 @@
 		};
 		B532358922EEC439009B9599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57DB136543E72FAD39B082E /* Pods-视频.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U44P9WZ63;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/BlocksKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Bugly\"",
+					"\"${PODS_ROOT}/Headers/Public/DZNEmptyDataSet\"",
+					"\"${PODS_ROOT}/Headers/Public/FLAnimatedImage\"",
+					"\"${PODS_ROOT}/Headers/Public/FLEX\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/JPush\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/MLTransition\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/SAMKeychain\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SPAlertController\"",
+					"\"${PODS_ROOT}/Headers/Public/TZImagePickerController\"",
+					"\"${PODS_ROOT}/Headers/Public/WMPageController\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKit\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+					"${SDK_ROOT}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "视频/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,10 +820,37 @@
 		};
 		B532358A22EEC439009B9599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756DC73FF250F813AFF249A1 /* Pods-视频.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U44P9WZ63;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/BlocksKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Bugly\"",
+					"\"${PODS_ROOT}/Headers/Public/DZNEmptyDataSet\"",
+					"\"${PODS_ROOT}/Headers/Public/FLAnimatedImage\"",
+					"\"${PODS_ROOT}/Headers/Public/FLEX\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/JPush\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/MLTransition\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/SAMKeychain\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SPAlertController\"",
+					"\"${PODS_ROOT}/Headers/Public/TZImagePickerController\"",
+					"\"${PODS_ROOT}/Headers/Public/WMPageController\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKit\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+					"${SDK_ROOT}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "视频/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,6 +864,7 @@
 		};
 		B532358C22EEC439009B9599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8979DE727E854B2F57BAC38 /* Pods-视频Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +884,7 @@
 		};
 		B532358D22EEC439009B9599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB17059BB8206356757A82D1 /* Pods-视频Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +904,7 @@
 		};
 		B532358F22EEC439009B9599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34275372EC433CC55853DEA /* Pods-视频UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U44P9WZ63;
@@ -523,6 +923,7 @@
 		};
 		B532359022EEC439009B9599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C0ECA0C48D7BED81438396A /* Pods-视频UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U44P9WZ63;
